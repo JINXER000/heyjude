@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-17T09:00:15.446Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="sw7JmpC2Dsj9U1iVgnDg" version="13.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-17T09:02:53.864Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="iIU_6fGHWZ99X8mIqaMn" version="13.6.2" type="github">
   <diagram id="0jkEn2bVEk10fjHESvP0" name="Page-1">
     <mxGraphModel dx="930" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -28,6 +28,14 @@
         </mxCell>
         <mxCell id="G2F7Rr_AwyJElI_1F-_--29" value="open door" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G2F7Rr_AwyJElI_1F-_--28">
           <mxGeometry x="0.1264" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G2F7Rr_AwyJElI_1F-_--53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="G2F7Rr_AwyJElI_1F-_--2" target="G2F7Rr_AwyJElI_1F-_--52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G2F7Rr_AwyJElI_1F-_--54" value="low bat; slam loss;&lt;br&gt;time out; sudo cmd" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G2F7Rr_AwyJElI_1F-_--53">
+          <mxGeometry x="0.1616" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -105,6 +113,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="G2F7Rr_AwyJElI_1F-_--56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="G2F7Rr_AwyJElI_1F-_--27" target="G2F7Rr_AwyJElI_1F-_--55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G2F7Rr_AwyJElI_1F-_--57" value="sudo cmd" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G2F7Rr_AwyJElI_1F-_--56">
+          <mxGeometry x="-0.0054" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="G2F7Rr_AwyJElI_1F-_--27" value="wait for fetching" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="570" y="340" width="60" height="30" as="geometry" />
         </mxCell>
@@ -154,6 +170,12 @@
           <mxGeometry x="-0.0888" y="27" relative="1" as="geometry">
             <mxPoint x="-15" y="22" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="G2F7Rr_AwyJElI_1F-_--52" value="error handler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="400" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G2F7Rr_AwyJElI_1F-_--55" value="error handler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="460" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
